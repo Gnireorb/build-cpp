@@ -2,7 +2,7 @@
 #include <Windows.h>
 #include <future>
 
-int main()
+auto main() -> int
 {
 	std::cout << "hello." << std::endl << std::endl;
 	std::cout << "press END to end this application." << std::endl;
